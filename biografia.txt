@@ -1,1 +1,6 @@
-hola bebe
+Comandos git porque son utlizados pos los programadores
+git es un sistema de control de versiones el cual nos permite
+a nosotros los programadores llevar el estado de el codigo fuente de un proyecto.
+el cual se basa en una lista de comandos el cual se basa en la terminal linux.
+Es muy utli hacer uso de esta herramienta ya que se puede hacer versiones diferentes
+de un proyecto..
