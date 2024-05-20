@@ -1,0 +1,140 @@
+body{
+    background-color: #01257D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    position: relative;
+    justify-content: center;
+    width: 100px;
+    height: 90px;
+    left: 1vw;
+    
+}
+.container1{
+    background-color: #0787AF;
+    width: 99vw;
+    border-radius: 2px;
+
+    height: 80px;
+}
+.imagen1{
+    position: relative;
+    justify-content: center;
+    width: 57vw;
+    height: 56vw;
+    bottom: -2px;
+}
+.menu{
+    position: relative;
+    justify-content: center;
+   
+}
+.op1{
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    bottom: 3.8vw;
+    left: 20vw;
+    width: 140px;
+    height: 2px;
+
+}
+.op2{
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    bottom: 4.8vw;
+    left:40vw;
+    height: 2px;
+
+}
+.op3{
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    bottom: 5.9vw;
+    left:60vw;
+    height: 2px;
+}
+.op4{
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    bottom: 7.1vw;
+    left:80vw;
+    height: 2px;
+}
+.r1{
+    position: relative;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    bottom: 13vw;
+    left: 86vw;
+}
+.r2{
+    position: relative;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    bottom: 13vw;
+    left: 80vw;
+}
+.r3{
+    position: relative;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    bottom: 13vw;
+    left: 90vw;
+}
+.r4{
+    position: relative;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    bottom: 13vw;
+    left: 84vw;
+}
+
+.sla1{
+    position: relative;
+    justify-content: center;
+    width: 99vw;
+    height: 38vw;
+    bottom: 7.6vw;
+}
+.fondo{
+    position: relative;
+    justify-content: center;
+    width: 99vw;
+    background-color: #F1EEEE;
+    height: 40vw;
+    bottom: -2vw;
+}
+.cont1{
+    position: relative;
+    justify-content: center;
+    border-radius: 12px;
+    width: 25vw;
+    height: 35vw;
+    bottom: 45.8vw;
+    border: solid gray;
+    left: 14.5vw;
+    background-color: #E7E1E1;
+}
+.cont2{
+    position: relative;
+    justify-content: center;
+    border-radius: 12px;
+    width: 25vw;
+    height: 35vw;
+    bottom: 81.2vw;
+    border: solid gray;
+    left: 56vw;
+    background-color: #E7E1E1;
+}
