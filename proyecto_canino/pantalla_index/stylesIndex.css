@@ -34,7 +34,7 @@ body{
     justify-content: center;
     color: white;
     font-size: 20px;
-    bottom: 3.8vw;
+    bottom: 5vw;
     left: 20vw;
     width: 140px;
     height: 2px;
@@ -45,7 +45,7 @@ body{
     justify-content: center;
     color: white;
     font-size: 20px;
-    bottom: 4.8vw;
+    bottom: 6.7vw;
     left:40vw;
     height: 2px;
 
@@ -55,7 +55,7 @@ body{
     justify-content: center;
     color: white;
     font-size: 20px;
-    bottom: 5.9vw;
+    bottom: 8.2vw;
     left:60vw;
     height: 2px;
 }
@@ -64,7 +64,7 @@ body{
     justify-content: center;
     color: white;
     font-size: 20px;
-    bottom: 7.1vw;
+    bottom: 10vw;
     left:80vw;
     height: 2px;
 }
@@ -73,32 +73,32 @@ body{
     justify-content: center;
     width: 35px;
     height: 35px;
-    bottom: 13vw;
-    left: 86vw;
+    bottom: 18.8vw;
+    left: 80vw;
 }
 .r2{
     position: relative;
     justify-content: center;
     width: 35px;
     height: 35px;
-    bottom: 13vw;
-    left: 80vw;
+    bottom: 18.8vw;
+    left: 72vw;
 }
 .r3{
     position: relative;
     justify-content: center;
     width: 35px;
     height: 35px;
-    bottom: 13vw;
-    left: 90vw;
+    bottom: 18.8vw;
+    left: 84vw;
 }
 .r4{
     position: relative;
     justify-content: center;
     width: 35px;
     height: 35px;
-    bottom: 13vw;
-    left: 84vw;
+    bottom: 18.8vw;
+    left: 76vw;
 }
 
 .sla1{
@@ -106,7 +106,7 @@ body{
     justify-content: center;
     width: 99vw;
     height: 38vw;
-    bottom: 7.6vw;
+    bottom: 1vw;
 }
 .fondo{
     position: relative;
