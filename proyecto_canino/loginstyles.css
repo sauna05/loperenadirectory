@@ -1,0 +1,115 @@
+body {
+    background-color: #01257D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;   
+}
+.logo {
+    width: 100px;
+    height: 40px; 
+}
+.container1 {
+    background-color: #0787AF;
+    width: 100%;
+    height: 80px;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.opciones {
+    text-align: center; 
+}
+
+.opciones p {
+    position: relative;
+    display: inline-block; 
+    margin: 0 45px; 
+    color: white;
+    bottom: -2vw;
+    font-size: 20px;
+}
+.r1,
+.r2,
+.r3,
+.r4 {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px; 
+}
+.imagen {
+    position: relative;
+    text-align: center;
+    margin-top: 80px; 
+}
+.sla1 {
+    width: 100%;
+    height: auto; 
+}
+
+.login {
+    position: relative;
+    bottom: 58vw;
+    width: 25vw;
+    height: 35vw;
+    border-radius: 14px;
+    background-color: #0A125A;
+    margin: auto;
+    padding: 20px; 
+    margin-top: 20px; 
+}
+
+.formulario {
+    text-align: left; 
+    color: #fff; 
+}
+
+
+.formulario label {
+    font-size: 18px; 
+}
+
+
+.formulario input[type="email"],
+.formulario input[type="password"] {
+    width: calc(100% - 20px); 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border-radius: 6px; 
+    border: none; 
+    background-color: #fff;
+}
+
+
+.formulario input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 6px; 
+    background-color: #0787AF; 
+    color: #fff;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+
+.formulario input[type="submit"]:hover {
+    background-color: #01257D; 
+}
+
+.formulario a {
+    color: #fff;
+    text-decoration: none; 
+    font-size: 14px; 
+}
+
+.formulario a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+.container2{
+    position: relative;
+    bottom: 0.5vw;
+    background-color: gainsboro;
+    width: 100%;
+    height: 40vw;
+   
+}
