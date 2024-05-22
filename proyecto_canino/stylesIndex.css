@@ -11,42 +11,22 @@ body{
     position: relative;
     justify-content: center;
     width: 100px;
-    height: 90px;
-    left: 1vw;
-    
+    height: 95%;
 }
 
-.r1{
+.r1,
+.r2,
+.r3,
+.r4 {
+    align-items: center;
     position: relative;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    bottom: 1.3vw;
-    left: 78vw;
-}
-.r2{
+    bottom: 1.5vw;
+    width: 30px;
+    height: 30px;
+    margin: 2px 40px;
     position: relative;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    bottom: 1.3vw;
-    left: 72vw;
-}
-.r3{
-    position: relative;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    bottom: 1.3vw;
-    left: 82vw;
-}
-.r4{
-    position: relative;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    bottom: 1.3vw;
-    left: 76vw;
+    left: 65vw;
+    margin-left: 10px; 
 }
 .menu{
     position: relative;
@@ -61,83 +41,77 @@ body{
     text-align: center; 
 }
 
-.opciones p {
+.opciones p,a {
+    text-decoration: none;
     position: relative;
     display: inline-block; 
     margin: 0 50px; 
     color: white;
-    bottom: -2vw;
+    bottom: -2.5vw;
     font-size: 20px;
 }
 
-.imagen1{
-    position: relative;
-    justify-content: center;
-   
-    height: 56vw;
-    bottom: -12vw;
-}
+
 .sla1{
     position: relative;
     justify-content: center;
     width: 100%;
+    margin-bottom: 24px;
     height: 38vw;
-    bottom: -1vw;
+    bottom: -0.1vw;
 }
 .fondo{
     position: relative;
     justify-content: center;
-    width: 99vw;
+    width: 100%;
     background-color: #F1EEEE;
-    height: 40vw;
-    bottom: -2vw;
+    height: 90vw;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    bottom: -12vw;
+    padding: 12px;
+}
+.cont1 {
+    position: relative;
+    bottom: 38vw;
+    justify-content: center;
+    border-radius: 12px;
+    width: 34%; /* Ajustamos el ancho a un porcentaje */
+    height: 35vw; /* Mantenemos el alto relativo */
+    border: solid gray;
+    left: -6%; /* Ajustamos el margen izquierdo */
+    background-color: #E7E1E1;
 }
 
-.cont1{
+.cont2 {
     position: relative;
     justify-content: center;
     border-radius: 12px;
-    width: 30vw;
-    height: 35vw;
-    bottom: 45.8vw;
+    width: 34%; /* Ajustamos el ancho a un porcentaje */
+    height: 35vw; /* Mantenemos el alto relativo */
     border: solid gray;
-    left: 14.5vw;
+    left: 23%; /* Ajustamos el margen izquierdo */
+    bottom: 38vw; /* Ajustamos la posición inferior para que esté debajo de .cont1 */
+    transform: translateX(-50%); /* Centramos horizontalmente */
     background-color: #E7E1E1;
-}
-.titulo1,.titulo2{
-    left: -3vw;
-    color: #5F6062;
-    position: relative;
-    justify-content: center;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-.pre1{
-    position: relative;
-    justify-content: center;
-    font-size: 18px;
-    left: -4.5vw;
-   
-    font-weight: bold;
-}
-.pre2{
-    position: relative;
-    justify-content: center;
-    font-size: 18px;
-    left: -4.5vw;
-    bottom: 2.3vw;
-    font-weight: bold;
 }
 
-.cont2{
-    position: relative;
-    justify-content: center;
-    border-radius: 12px;
-    width: 30vw;
-    height: 35vw;
-    bottom: 81.2vw;
-    border: solid gray;
-    left: 56vw;
-    background-color: #E7E1E1;
+.imgb{
+    position: absolute; /* Cambiamos a posición absoluta */
+    top: 55%; /* Centramos verticalmente */
+    width: 100%;
+    left: 49%; /* Centramos horizontalmente */
+    transform: translate(-50%, -50%); /* Centramos completamente */
+  /* Ajustamos el ancho de la imagen */
+}
+
+.imgv {
+    width: 100%;
+    position: absolute; /* Cambiamos a posición absoluta */
+    left: 49%; /* Centramos horizontalmente */
+    transform: translateX(-50%); /* Centramos completamente */
+    bottom: -3vw;
+
+    /* Ajustamos el ancho de la imagen */
 }
