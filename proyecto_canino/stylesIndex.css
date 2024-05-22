@@ -47,7 +47,7 @@ body{
     display: inline-block; 
     margin: 0 50px; 
     color: white;
-    bottom: -2.5vw;
+    bottom: -2vw;
     font-size: 20px;
 }
 
@@ -98,20 +98,18 @@ body{
 }
 
 .imgb{
-    position: absolute; /* Cambiamos a posición absoluta */
-    top: 55%; /* Centramos verticalmente */
-    width: 100%;
-    left: 49%; /* Centramos horizontalmente */
-    transform: translate(-50%, -50%); /* Centramos completamente */
-  /* Ajustamos el ancho de la imagen */
+    position: absolute; 
+    top: 50%; 
+    width: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .imgv {
-    width: 100%;
-    position: absolute; /* Cambiamos a posición absoluta */
-    left: 49%; /* Centramos horizontalmente */
-    transform: translateX(-50%); /* Centramos completamente */
-    bottom: -3vw;
-
-    /* Ajustamos el ancho de la imagen */
+    width: 99%;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    bottom: -6vw;
 }
