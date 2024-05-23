@@ -13,6 +13,20 @@ body{
     width: 100px;
     height: 95%;
 }
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto; 
+  }
+.slides {
+    display: flex;
+  }
+  
+  .slider .slides img {
+    width: 100%;
+    height: auto;
+  }
 
 .r1,
 .r2,
@@ -36,9 +50,20 @@ body{
     top: 0;
     height: 90px;
     position: relative;
+    
 }
 .opciones {
     text-align: center; 
+}
+
+.opciones p:hover{
+    color: #01257D;
+    font-weight: bold;
+}
+
+.opciones a:hover{
+    color: #01257D;
+    font-weight: bold;
 }
 
 .opciones p,a {
@@ -49,16 +74,6 @@ body{
     color: white;
     bottom: -2vw;
     font-size: 20px;
-}
-
-
-.sla1{
-    position: relative;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 24px;
-    height: 38vw;
-    bottom: -0.1vw;
 }
 .fondo{
     position: relative;

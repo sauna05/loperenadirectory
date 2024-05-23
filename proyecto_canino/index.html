@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="stylesIndex.css">
 </head>
 <body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const slides = document.querySelectorAll(".slides img");
+            let currentSlide = 0;
+          
+            function showSlide(index) {
+              slides.forEach((slide, i) => {
+                if (i === index) {
+                  slide.style.display = "block";
+                } else {
+                  slide.style.display = "none";
+                }
+              });
+            }
+          
+            function nextSlide() {
+              currentSlide = (currentSlide + 1) % slides.length;
+              showSlide(currentSlide);
+            }
+            setInterval(nextSlide, 4000);
+          });
+
+    </script>
     <div class="head">
         <img class="logo" src="pantalla_index/logo final.png" alt="">
         <img class="r1" src="pantalla_index/Redes sociales/whatsapp-icon logo.png   " alt="">
@@ -25,21 +48,34 @@
             
         </div>
     </div>
-    <div class="imagen">
-        <img class="sla1" src="pantalla_index/slai4.png" alt="">
-
+    <div class="slider">
+        <div class="slides">
+            <img src="pantalla_index/slai4.png" alt="">
+            <img src="pantalla_index/slai1.png" alt="">
+            <img src="pantalla_index/slai2.png" alt="">
+        </div>
+       
         <div class="fondo">
             <div class="cont1">
+                <div class="texto1">
+                    <pre>
+                        este un pequeño poarrafo de orueba
+
+                    </pre>
+                </div>
             
             </div>
             <div class="cont2">
-               
+                <div class="texto2">
+                    <pre>
+                        hola que tal
+
+                    </pre>
+                </div>
             </div>
                 <img class="imgb" src="pantalla_index/banneragendarcita.png" alt="">
                 <img class="imgv " src="pantalla_index/bannerimagenfinal 1 1.png" alt="">
         </div>
-
-        
     </div>
     
 </body>
