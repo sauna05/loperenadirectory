@@ -80,7 +80,7 @@ body{
     justify-content: center;
     width: 100%;
     background-color: #F1EEEE;
-    height: 90vw;
+    height: 180vw;
     display: flex;
     padding: 20px;
     align-items: center;
@@ -89,7 +89,7 @@ body{
 }
 .cont1 {
     position: relative;
-    bottom: 38vw;
+    bottom: 80.2vw;
     justify-content: center;
     border-radius: 12px;
     width: 34%; /* Ajustamos el ancho a un porcentaje */
@@ -107,7 +107,7 @@ body{
     height: 35vw; /* Mantenemos el alto relativo */
     border: solid gray;
     left: 23%; /* Ajustamos el margen izquierdo */
-    bottom: 38vw; /* Ajustamos la posición inferior para que esté debajo de .cont1 */
+    bottom: 80.2vw; /* Ajustamos la posición inferior para que esté debajo de .cont1 */
     transform: translateX(-50%); /* Centramos horizontalmente */
     background-color: #E7E1E1;
 }
@@ -118,13 +118,13 @@ body{
     width: 99%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    
 }
 
 .imgv {
     width: 99%;
     position: absolute; 
     left: 50%; 
-    transform: translateX(-50%); 
-    bottom: -6vw;
+    transform: translate(-50%, -50%);
+    bottom: 20vw;
 }
