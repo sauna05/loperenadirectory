@@ -3,80 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>veterinaria canina</title>
     <link rel="stylesheet" href="stylesIndex.css">
 </head>
 <body>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const slides = document.querySelectorAll(".slides img");
-            let currentSlide = 0;
-          
-            function showSlide(index) {
-              slides.forEach((slide, i) => {
-                if (i === index) {
-                  slide.style.display = "block";
-                } else {
-                  slide.style.display = "none";
-                }
-              });
-            }
-          
-            function nextSlide() {
-              currentSlide = (currentSlide + 1) % slides.length;
-              showSlide(currentSlide);
-            }
-            setInterval(nextSlide, 4000);
-          });
 
-    </script>
-    <div class="head">
-        <img class="logo" src="pantalla_index/logo final.png" alt="">
-        <img class="r1" src="pantalla_index/Redes sociales/whatsapp-icon logo.png   " alt="">
-        <img class="r2" src="pantalla_index/Redes sociales/x.png" alt="">
-        <img class="r3" src="pantalla_index/Redes sociales/thefacebook.png" alt="">
-        <img class="r4" src="pantalla_index/Redes sociales/iconoinstagran.png" alt="">
-    </div>
-   
-    <!-- heml semantico display flex -->
+    <header >
+        <a href="" class="logo">
+            <img src="pantalla_index/logo final.png" alt="">
+        </a>
+        <nav>
+            <a href="" class="nav-link">
+               <img src="pantalla_index/Redes sociales/x.png" alt="">
+            </a>
+            <a href="" class="nav-link">
+               <img src="pantalla_index/Redes sociales/whatsapp-icon logo.png" alt="">
+            </a>
+            <a href="" class="nav-link">
+                <img src="pantalla_index/Redes sociales/iconoinstagran.png" alt="">
+            </a>
+            <a href="" class="nav-link">
+                <img src="pantalla_index/Redes sociales/thefacebook.png" alt="">
+            </a>
+
+        </nav>
+
+    </header>
+
     <div class="menu">
-        <div class="opciones">
-            <p class="op1">Quienes somos</p>
-            <p class="op2">Contactos</p>
-            <p class="op3">Servicios</p>
-            <a class="op4" href="login.html">Iniciar sesion</a>
-            
-        </div>
-    </div>
-    <div class="slider">
-        <div class="slides">
-            <img src="pantalla_index/slai4.png" alt="">
-            <img src="pantalla_index/slai1.png" alt="">
-            <img src="pantalla_index/slai2.png" alt="">
-        </div>
-       
-        <div class="fondo">
-            <div class="cont1">
-                <div class="texto1">
-                    <pre>
-                        este un pequeño poarrafo de orueba
+        <nav>
+           <a href="" class="opciones" > quines somos</a>
+           <a href="" class="opciones" > Contactos</a>
+           <a href="" class="opciones" > Servicios</a>
+           <a href="" class="opciones" > Iniciar sesion</a>
 
-                    </pre>
-                </div>
-            
-            </div>
-            <div class="cont2">
-                <div class="texto2">
-                    <pre>
-                        hola que tal
+        </nav>
 
-                    </pre>
-                </div>
-            </div>
-                <img class="imgb" src="pantalla_index/banneragendarcita.png" alt="">
-                <img class="imgv " src="pantalla_index/bannerimagenfinal 1 1.png" alt="">
+   </div>
+
+   <div class="slider">
+    <img  src="pantalla_index/slai1.png" alt="">
+
+    <div class="parrafos">
+        <div class="p1">
+            
+
+       </div>
+    
+        <div class="p2">
+            
+           
         </div>
+      
     </div>
     
+   </div>
+   <div class="baner">
+    <a href=""><img src="pantalla_index/banneragendarcita.png" alt=""></a> 
+     <a href=""><img src="pantalla_index/bannerimagenfinal 1 1.png" alt=""></a>
+
+</div>
+
+   <footer class="foter">
+    <div class="container">
+        <div class="foter-row">
+
+            <div class="foter-link">
+                <h4> horario de atencion </h4>
+                <ul>
+                    <li><a href="">Lunes - Viernes: 9:00 AM - 6:00 PM</a> </li>
+                    <li><a href="">Sábado: 9:00 AM - 1:00 PM</a> </li>
+                    <li><a href="">Domingo: Cerrado</a> </li>
+                    <br>
+                    <h4> linea telefonica </h4>
+                    <li> <a href="">+57 3236369508</a></li>
+                    <li><a href="">canina@gmail.com</a></li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="foter-link">
+                <h4>Servicios </h4>
+                <ul>
+                    <li><a href="">servicio1</a> </li>
+                    <li><a href="">servicio2</a> </li>
+                    <li><a href="">servicio3</a> </li>
+                    <li><a href="">servicio4</a> </li>
+                </ul>
+            </div>
+
+            <div class="foter-link">
+                <h4>Servicios </h4>
+                <ul>
+                    <li><a href="">servicio1</a> </li>
+                    <li><a href="">servicio2</a> </li>
+                    <li><a href="">servicio3</a> </li>
+                    <li><a href="">servicio4</a> </li>
+                </ul>
+            </div>
+
+            <div class="foter-link">
+                <h4> Imformacion </h4>
+                <ul>
+                    <li><a href="">servicios de hacer con los perritos</a> </li>
+                    <li><a href="">quines somos</a> </li>
+                    <li><a href="">iniciar sesion</a> </li>
+                    <li><a href="">registrate</a> </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+   </footer>
+   <div class="gato-container">
+    <img src="pantalla_index/gatovector.png" alt="">
+   </div>
 </body>
 </html>

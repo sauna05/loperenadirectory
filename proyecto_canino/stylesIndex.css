@@ -1,130 +1,192 @@
-body{
-    background-color: #01257D;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*{
+    margin: 0;
+    height: max-content;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
-.head{
-    background-color:  #01257D ;
-    height:90px ;
-    margin: 8px;
-}
-.logo{
-    position: relative;
-    justify-content: center;
-    width: 100px;
-    height: 95%;
-}
-.slider {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto; 
-  }
-.slides {
-    display: flex;
-  }
-  
-  .slider .slides img {
-    width: 100%;
-    height: auto;
-  }
 
-.r1,
-.r2,
-.r3,
-.r4 {
-    align-items: center;
-    position: relative;
-    bottom: 1.5vw;
-    width: 30px;
-    height: 30px;
-    margin: 2px 40px;
-    position: relative;
-    left: 65vw;
-    margin-left: 10px; 
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #F1EEEE;
 }
-.menu{
-    position: relative;
+
+header{
+    display: flex;
     width: 100%;
+    justify-content: space-between;
+    background-color: #01257D;
+    align-items: center;
+    padding: 12px;
+ 
+}
+
+
+.menu{
     background-color: #0787AF;
+    justify-content: space-between;
+    z-index: 1000;
     position: fixed;
-    top: 0;
-    height: 90px;
-    position: relative;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    display: flex;
     
 }
-.opciones {
-    text-align: center; 
-}
-
-.opciones p:hover{
-    color: #01257D;
-    font-weight: bold;
-}
-
-.opciones a:hover{
-    color: #01257D;
-    font-weight: bold;
-}
-
-.opciones p,a {
+.menu nav a{
     text-decoration: none;
     position: relative;
-    display: inline-block; 
-    margin: 0 50px; 
-    color: white;
-    bottom: -2vw;
-    font-size: 20px;
-}
-.fondo{
-    position: relative;
-    justify-content: center;
-    width: 100%;
-    background-color: #F1EEEE;
-    height: 180vw;
-    display: flex;
-    padding: 20px;
+    justify-content: space-between;
+    left: 25vw;
+    font-size: 18px;
     align-items: center;
-    bottom: -12vw;
-    padding: 12px;
-}
-.cont1 {
-    position: relative;
-    bottom: 80.2vw;
-    justify-content: center;
-    border-radius: 12px;
-    width: 34%; /* Ajustamos el ancho a un porcentaje */
-    height: 35vw; /* Mantenemos el alto relativo */
-    border: solid gray;
-    left: -6%; /* Ajustamos el margen izquierdo */
-    background-color: #E7E1E1;
+    color: white;
+    padding-right:90px;
+    transition: all .3s ease;
 }
 
-.cont2 {
-    position: relative;
-    justify-content: center;
-    border-radius: 12px;
-    width: 34%; /* Ajustamos el ancho a un porcentaje */
-    height: 35vw; /* Mantenemos el alto relativo */
-    border: solid gray;
-    left: 23%; /* Ajustamos el margen izquierdo */
-    bottom: 80.2vw; /* Ajustamos la posición inferior para que esté debajo de .cont1 */
-    transform: translateX(-50%); /* Centramos horizontalmente */
-    background-color: #E7E1E1;
+.menu  a:hover{
+    color: rgb(69, 44, 59);
+    transition: all 1s;
+    padding-left: 12px;
 }
 
-.imgb{
-    position: absolute; 
-    top: 50%; 
-    width: 99%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.nav-link img{
+    height: 25px;
+    padding: 0 12px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+.slider {
+    max-height: max-content;   
+}
+
+.slider img{
     
+    width: 100%;
+    height: 40vw;
 }
 
-.imgv {
-    width: 99%;
-    position: absolute; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    bottom: 20vw;
+/* Aqui los parrafos */
+
+.parrafos {
+    background-color: #01257D;
+    width: 100%;
+    display: flex;
+    height: 12vw;
+    margin-bottom: 25vw;
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+}
+.p1 ,.p2{
+    border-radius: 6px;
+    border: 4px black;
+    margin: 84px;
+    margin-bottom: -20%;
+}
+
+/*Adaptar el gato*/
+
+.gato-container img {
+    position: relative;
+    width: 26vw; /* Ancho relativo al ancho de la ventana */
+    height: auto; /* Altura se ajustará automáticamente para mantener la relación de aspecto */
+    max-width: 100%; /* Evita que la imagen se desborde del contenedor */
+    left: 37.4%; /* Puedes mantener el posicionamiento relativo usando porcentajes */
+    bottom: 110vw; /* Puedes ajustar este valor según tus necesidades */
+}
+
+pre{
+    text-align: center;
+}
+
+.p1, .p2  {
+
+    background-color: #ccc;
+    height: 32vw;
+    width: 30%; /* Porcentaje del ancho del contenedor padre */
+    border: 4px solid gray; /* Agrega un borde para visualizar mejor */
+    box-sizing: border-box; /* Asegura que el padding no aumente el ancho del elemento */
+    overflow: auto; /* Hace que aparezca una barra de desplazamiento cuando el contenido sea demasiado grande */
+    white-space: pre-wrap; /* Controla cómo se manejan los espacios en blanco dentro del elemento */
+  }
+
+  /* Aqui los banner */
+
+.baner{
+    max-height: max-content;
+}
+.tex-1{
+    font-size: 18px;
+    position: relative;
+    left: -30vw;
+    align-items: center;
+    bottom: -20vw;
+    font-weight: 520;
+}
+.baner img{
+    width: 100%;
+    height: 380px;
+}
+
+/*aqui el foter*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #01257D;
+    padding: 50px 0;
+    border-radius: 4px;
+    margin: 20px;
+}
+.foter-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foter-link{
+    width: 25%;
+    padding: 0 25px;
+}
+
+.foter-link h4{
+    color:  white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    border-bottom: 2px solid blanchedalmond;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.foter-link ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+    transition: all .3s ease;
+}
+
+.foter-link  ul li a:hover{
+    color:  green;
+    padding-left: 12px;
+
+}
+
+/* response*/
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
 }
