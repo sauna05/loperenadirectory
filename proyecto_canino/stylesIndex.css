@@ -11,7 +11,6 @@ body{
     margin: 0;
     background-color: #F1EEEE;
 }
-
 header{
     display: flex;
     width: 100%;
@@ -21,8 +20,6 @@ header{
     padding: 12px;
  
 }
-
-
 .menu{
     background-color: #0787AF;
     justify-content: space-between;
@@ -39,6 +36,7 @@ header{
     position: relative;
     justify-content: space-between;
     left: 25vw;
+    margin: 0 2.5vw ;
     font-size: 18px;
     align-items: center;
     color: white;
@@ -56,6 +54,8 @@ header{
     height: 25px;
     padding: 0 12px;
 }
+
+
 
 .logo{
     display: flex;
@@ -96,14 +96,6 @@ header{
 
 /*Adaptar el gato*/
 
-.gato-container img {
-    position: relative;
-    width: 26vw; /* Ancho relativo al ancho de la ventana */
-    height: auto; /* Altura se ajustará automáticamente para mantener la relación de aspecto */
-    max-width: 100%; /* Evita que la imagen se desborde del contenedor */
-    left: 37.4%; /* Puedes mantener el posicionamiento relativo usando porcentajes */
-    bottom: 110vw; /* Puedes ajustar este valor según tus necesidades */
-}
 
 pre{
     text-align: center;
@@ -116,9 +108,23 @@ pre{
     width: 30%; /* Porcentaje del ancho del contenedor padre */
     border: 4px solid gray; /* Agrega un borde para visualizar mejor */
     box-sizing: border-box; /* Asegura que el padding no aumente el ancho del elemento */
-    overflow: auto; /* Hace que aparezca una barra de desplazamiento cuando el contenido sea demasiado grande */
+     /* Hace que aparezca una barra de desplazamiento cuando el contenido sea demasiado grande */
     white-space: pre-wrap; /* Controla cómo se manejan los espacios en blanco dentro del elemento */
   }
+.p1 ,.p2  h2{
+    text-align: center;
+    color: #5F6062;
+    font-weight: 700;
+}
+
+.t-1 , .t-2{
+   text-align: center;
+   color: #5F5959;
+   font-weight: 550;
+}
+
+ 
+
 
   /* Aqui los banner */
 
@@ -135,7 +141,7 @@ pre{
 }
 .baner img{
     width: 100%;
-    height: 380px;
+    height: 28vw;
 }
 
 /*aqui el foter*/
@@ -172,9 +178,10 @@ footer{
 }
 .foter-link ul li a{
     color: white;
+    font-weight: 500;
     text-decoration: none;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     transition: all .3s ease;
 }
 
