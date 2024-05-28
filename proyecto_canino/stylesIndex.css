@@ -11,20 +11,11 @@ body{
     margin: 0;
     background-color: #F1EEEE;
 }
-header{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    background-color: #01257D;
-    align-items: center;
-    padding: 12px;
- 
-}
+      
 .menu{
     background-color: #0787AF;
     justify-content: space-between;
-    z-index: 1000;
-    position: fixed;
+   
     width: 100%;
     height: 60px;
     align-items: center;
@@ -70,10 +61,11 @@ header{
     max-height: max-content;   
 }
 
-.slider img{
-    
+.slider img{ 
     width: 100%;
     height: 40vw;
+    transition: all 2s ease;
+    
 }
 
 /* Aqui los parrafos */
@@ -105,22 +97,36 @@ pre{
 
     background-color: #ccc;
     height: 32vw;
-    width: 30%; /* Porcentaje del ancho del contenedor padre */
+    width: 28vw; /* Porcentaje del ancho del contenedor padre */
     border: 4px solid gray; /* Agrega un borde para visualizar mejor */
     box-sizing: border-box; /* Asegura que el padding no aumente el ancho del elemento */
      /* Hace que aparezca una barra de desplazamiento cuando el contenido sea demasiado grande */
     white-space: pre-wrap; /* Controla cómo se manejan los espacios en blanco dentro del elemento */
   }
-.p1 ,.p2  h2{
+h2{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     color: #5F6062;
     font-weight: 700;
+    
 }
 
-.t-1 , .t-2{
+ .p1,.t-1{
    text-align: center;
+   overflow: auto;
+   justify-content: center;
    color: #5F5959;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-weight: 550;
+
+}
+.p2, .t-2{
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+    color: #5F5959;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
  
