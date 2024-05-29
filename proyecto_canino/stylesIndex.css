@@ -11,11 +11,21 @@ body{
     margin: 0;
     background-color: #F1EEEE;
 }
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #01257D;
+    padding: 12px
+}
+
+
       
 .menu{
     background-color: #0787AF;
     justify-content: space-between;
-   
     width: 100%;
     height: 60px;
     align-items: center;
@@ -42,19 +52,21 @@ body{
 }
 
 .nav-link img{
+    position: relative;
     height: 25px;
-    padding: 0 12px;
+    padding: 0 12px;   
 }
-
 
 
 .logo{
     display: flex;
     align-items: center;
 }
+
 .logo img{
     height: 80px;
-    margin-right: 10px;
+    margin-right: 70vw;
+    
 }
 
 .slider {
@@ -63,7 +75,7 @@ body{
 
 .slider img{ 
     width: 100%;
-    height: 40vw;
+    height: 45.8vw;
     transition: all 2s ease;
     
 }
