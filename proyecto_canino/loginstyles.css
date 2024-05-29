@@ -37,7 +37,7 @@ header{
     position: relative;
     justify-content: space-between;
     left: 25vw;
-    margin: 0 2.5vw ;
+    margin: 0 1vw ;
     font-size: 18px;
     align-items: center;
     color: white;
@@ -91,12 +91,12 @@ form{
     position: relative;
     bottom: 10.8vw;
     margin-bottom: -9vw;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-left: 37vw;
     background-color: #01257D;
-    width: 30vw;
+    width: 25vw;
     justify-content: center;
-    height: 42vw;
+    height: 34vw;
     padding: 12px;
 }
 
@@ -105,18 +105,19 @@ label{
     position: relative;
     font-weight: 550;
     align-items: center;
-    margin-left: 4.9vw;
-    bottom: -4vw;
+    margin-left: 3vw;
+    
+    bottom: -1.6vw;
 }
 
 input , button {
     position: relative;
-    margin-left: 4.9vw;
+    margin-left: 2.8vw;
     margin-bottom: 2vw;
-    border-radius: 6px;
+    border-radius: 8px;
     display: flex;
-    height: 2.5vw;
-    bottom: -5vw;
+    height: 2vw;
+    bottom: -2vw;
     width: 18vw;   
     padding: 4px;
 }
@@ -124,24 +125,28 @@ input , button {
 button{
     background-color: #004EF9;
     color: white;
-    padding-left: 6.5vw;
+    text-align: center;
+    padding-left: 7vw;
+    padding-top: 8px;
+  
 }
 button:hover{
-    background-color: #F1EEEE;
+    background-color: #0787AF;
     color: #01257D;
-    font-weight: 600;
+    
+    font-weight: 700;
 }
 .log{
     display: flex;
     align-items: center;
-    border: 4px solid red;
 }
 
 .log img{
-    bottom: -2.5vw;
+    display: flex;
     position: relative;
-    margin-left: 9vw;
-    width: 8vw;
+    margin-left: 8.5vw;
+    width: 6vw;
+    height: 7vw;
     position: relative;
     justify-content: center;
 }
@@ -150,9 +155,9 @@ button:hover{
     position: relative;
     color: #F1EEEE;
     display: flex;
-    text-decoration: none;
+   
     font-size: 15px;
-    bottom: -4vw;
+    bottom: -1.6vw;
     margin-bottom: 1.5vw;
     justify-content: center;
     transition: all 1s ease;
@@ -160,7 +165,7 @@ button:hover{
 }
 
 .rg-c:hover{
-    color: blueviolet;
+    color: #0787AF;
     padding-left: 6px;
     font-weight: 600;
 
@@ -200,15 +205,54 @@ footer{
     padding-bottom: 10px;
 }
 
-.foter-link img{
-    height: 25px;
+
+/*icono correo y telefono*/
+.img-1{
     position: relative;
+    height: 25px;
     text-align: center;
-    left: -2vw;
+    left: -0vw;
     bottom: -10px;
     display: flex;
 }
-.foter-link ul li a{
+.img-2{
+    position: relative;
+    height: 25px;
+    text-align: center;
+    left: -0vw;
+    bottom: -20px;
+    display: flex;
+}
+
+
+.cel{
+    text-decoration: none;
+    left: 2.8vw;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 1.8vw;
+    transition: all .3s ease;
+} 
+.email{
+    text-decoration: none;
+    left: 2.8vw;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 1vw;
+    transition: all .3s ease;
+}
+
+.v-line {
+    display: flex;
+    border-left: 1px solid white;
+    height:9.5vw;
+    left: -1vw;
+    position: relative;
+    bottom: 10vw;
+  }
+  .foter-link ul li a{
     color: white;
     font-weight: 500;
     text-decoration: none;
@@ -217,10 +261,17 @@ footer{
     transition: all .3s ease;
 }
 
-.foter-link  ul li a:hover{
+.foter-link  ul li  a:hover{
     color:  green;
     padding-left: 12px;
-
+}
+.cel:hover{
+    color:  green;
+    padding-left: 12px;
+}
+.email:hover{
+    color:  green;
+    padding-left: 12px;
 }
 
 /* response*/

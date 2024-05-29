@@ -6,6 +6,7 @@
     list-style: none;
 }
 
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -22,12 +23,13 @@ header{
 }
 
 
+
       
 .menu{
     background-color: #0787AF;
     justify-content: space-between;
     width: 100%;
-    height: 60px;
+    height: 80px;
     align-items: center;
     display: flex;
     
@@ -53,8 +55,8 @@ header{
 
 .nav-link img{
     position: relative;
-    height: 25px;
-    padding: 0 12px;   
+    height: 32px;
+    padding: 0 20px;   
 }
 
 
@@ -64,8 +66,8 @@ header{
 }
 
 .logo img{
-    height: 80px;
-    margin-right: 70vw;
+    height: 95px;
+    margin-right: 75vw;
     
 }
 
@@ -74,20 +76,28 @@ header{
 }
 
 .slider img{ 
-    width: 100%;
-    height: 45.8vw;
+    position: relative;
+    left: 15vw;
+    justify-content:center ;
+    width: 70%;
+    height: 32vw;
     transition: all 2s ease;
+    border-radius: 2px;
     
 }
 
 /* Aqui los parrafos */
 
 .parrafos {
+    position: relative;
     background-color: #01257D;
-    width: 100%;
+    width: 70%;
+    left: 15vw;
+    border-radius: 2px;
     display: flex;
+    bottom: 2vw;
     height: 12vw;
-    margin-bottom: 25vw;
+    margin-bottom: 20vw;
     justify-content: center; /* Centra horizontalmente los elementos hijos */
     align-items: center; /* Centra verticalmente los elementos hijos */
 }
@@ -108,8 +118,9 @@ pre{
 .p1, .p2  {
 
     background-color: #ccc;
-    height: 32vw;
-    width: 28vw; /* Porcentaje del ancho del contenedor padre */
+    height: 25.8vw;
+    
+    width: 23.5vw; /* Porcentaje del ancho del contenedor padre */
     border: 4px solid gray; /* Agrega un borde para visualizar mejor */
     box-sizing: border-box; /* Asegura que el padding no aumente el ancho del elemento */
      /* Hace que aparezca una barra de desplazamiento cuando el contenido sea demasiado grande */
@@ -141,8 +152,6 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
- 
-
 
   /* Aqui los banner */
 
@@ -158,8 +167,15 @@ h2{
     font-weight: 520;
 }
 .baner img{
-    width: 100%;
-    height: 28vw;
+    border-radius: 2px;
+    width: 70%;
+    bottom: 2.8vw;
+    height: 24vw;
+    position: relative;
+    left: 15vw;
+    padding-bottom: 18px;
+
+    
 }
 
 /*aqui el foter*/
@@ -172,8 +188,8 @@ h2{
 footer{
     background-color: #01257D;
     padding: 50px 0;
-    border-radius: 4px;
-    margin: 20px;
+    border-radius: 2px;
+    
 }
 .foter-row{
     display: flex;
